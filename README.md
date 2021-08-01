@@ -4,6 +4,7 @@
 ### First time build
 To build for the first time:
 
+0. Fetch all external libraries/submodules: ``git submodule update --init --recursive``
 1. Create a build directory: ``mkdir build``
 2. Change into the directory: ``cd build``
 3. Run CMake: ``cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles"``
